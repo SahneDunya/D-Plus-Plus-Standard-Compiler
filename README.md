@@ -8,7 +8,7 @@ D++ is a more feature-added version of the Classic D programming language develo
 
 # Basic features
 * File extension: .d++ (For D++)
-* Memory Management: Ownership and borrowing
+* Memory Management: Ownership and borrowing, Garbage collection and Manually
 * Compilation type: Ahead-of-Time
 * The executable file developed for it: .dplus
 * Underlying programming language: Classic D Programing Languge
