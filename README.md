@@ -14,6 +14,8 @@ D++ is a more feature-added version of the Classic D programming language develo
 * Underlying programming language: Classic D Programing Languge
 * Modern language features: yes
 * Standard Libray: yes
+* Target source file: 124 MB
+* Main programming language: D
 
 # Target Hello World code
 ```
