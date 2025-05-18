@@ -16,7 +16,7 @@ To check if the compiler is working correctly, try this in your terminal:
 ```bash
 dppc --version
 This command should print the compiler version (or a simple message).
-
+```
 2. Hello, World!
 As with any programming language, let's start with the "Hello, World!" program.
 ```
@@ -63,7 +63,7 @@ lines
 fn my_function() -> void {}
 Blocks and Scope
 Curly braces {} // create a block. Blocks define the scopes where variables are defined and valid.
-```
+
 fn main() -> void {
     let x = 10; // x is defined in this scope
 
@@ -404,9 +404,9 @@ fn main() -> void {
     // println!("Data from r1: {}", r1.data); // ERROR! r1 is moved
     println!("Data from r2: {}", r2.data); // r2 is the new owner of the resource
 } // r2 goes out of scope, the resource is dropped
+```
 Copy: Simple, fixed-size types like int, bool, float implement the Copy trait. For these types, assignment or passing as a function parameter results in a copy instead of a move, and the original value remains valid.
-Kod snippet'i
-
+```
 fn main() -> void {
     let a = 10; // int is Copy
     let b = a; // a is copied, ownership is not moved
