@@ -1,27 +1,9 @@
-# D-Plus-Plus
-D++ is a more feature-added version of the Classic D programming language developed by Sahne Dünya. Some software developers may have heard of the D programming language for the first time, especially C/C++ users may be curious. The D programming language is actually an alternative language to C/C++, just like Rust. The D programming language is a language that has been greatly influenced by C++, and can be considered a continuation. When we look at the history of the Classic C language, we see that it is based on the B programming language, C++ is based on the Classic C language, and the D programming language is based on C++. Sahne Dünya has created a new programming language, D++, from these coincidences. The other feature is that D developers expect a more advanced programming language here, and it is. C developers expected more features from C++. The D++ programming language compilation follows the principle of precompilation (AOT) and initially supports x86, but the standard D++ compiler targets a cross-platform compiler and we need your support for this.
+# D++ (D Plus Plus)
+D++ (D Plus Plus) is a programming language developed by Sahne Dünya, based on D but with more features added. The reason for the development of this programming language was to be largely compatible with the D programming language, so that it could benefit from applications using D programming languages ​​and developers could benefit from the modern features offered by D++. Although the D programming language is not widely known, it is actually a C/C++ alternative. Although the D programming language is not widespread, the same may not be true for D++. It may be one of the most important languages ​​in the history of system programming, who knows. However, I definitely need your support. Although the Standard Compiler of the D++ Programming Language initially targets RISC-V, it can support multiple platforms with your support in the future.
 
-# How is the D++ programming language different from the classical D language?
-1. Memory management, In Classic D language there are two memory management supported which are Manual and Garbage collection whereas D++ supports three memory management which are Manual, Garbage collection and Rust inspired Ownership and Borrowing.
-2. Control structures: In classical D programming language, two control structures are supported, namely if-else and switch, but it does not directly support match statement, whereas in D++ programming language, three control structures are supported, namely if-else, switch and match statement, all three are directly supported.
-3. Other features: Some features in the D++ programming language are not available in Classic D or are handled in a more advanced way. Some features are inspired by the Rust programming language. D++ programming language has Traits, Result and Option Types, Lifetimes etc. Features that are not available in Classic D language and are not effective in D++.
-
-# Basic features
-* File extension: .d++ (For D++)
-* Memory Management: Ownership and borrowing, Garbage collection and Manually
-* Compilation type: Ahead-of-Time
-* The executable file developed for it: .dplus
-* Underlying programming language: Classic D Programing Languge
-* Modern language features: yes
-* Standard Libray: yes
-* Target source file: 124 MB
-* Main programming language: D
-
-# Target Hello World code
-```
-import std.stdio;
-
-void main()
-{
-    writeln("Hello World!");
-}
+# Basic Feture
+1. File extension: Source file: .d++ (I know you normally expect a .dpp extension, but since it is used in a field, we chose the .d++ extension as the most logical option)
+2. Target Platform: Cross Platform
+3. Based programming language: D
+4. Compiler infrastructure: LLVM
+5. Programming language used in software development: C++
