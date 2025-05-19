@@ -7,3 +7,6 @@ D++ (D Plus Plus) is a programming language developed by Sahne Dünya, based on 
 3. Based programming language: D
 4. Compiler infrastructure: LLVM
 5. Programming language used in software development: C++
+6. Control structures: match (Pattern Matching)
+7. Memory management: ownership and borrowing
+8. Mainly supported programming: Object-oriented (OOP)
